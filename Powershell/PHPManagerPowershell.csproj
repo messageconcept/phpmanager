@@ -61,9 +61,6 @@
     <Compile Include="GetPHPSettingCmdlet.cs" />
     <Compile Include="GetPHPVersionCmdlet.cs" />
     <Compile Include="Helper.cs" />
-    <Compile Include="Installer.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="NewPHPSettingCmdlet.cs" />
     <Compile Include="NewPHPVersionCmdlet.cs" />
     <Compile Include="PHPConfigurationItem.cs" />
@@ -86,6 +83,9 @@
       <Link>phpmgrpublic.snk</Link>
     </None>
     <None Include="Documentation\Remove-WarningStuff.ps1" />
+    <None Include="PHPManager.psd1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources.resx">
